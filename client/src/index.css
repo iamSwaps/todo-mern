@@ -1,0 +1,54 @@
+body {
+  background-color: #DCDCDC;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  position: relative;
+}
+
+.card {
+  background-color: #F8F8FF;
+  color: rgb(37, 37, 37);
+  padding: 2%;
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  
+}
+.cardcontent {
+  overflow: hidden;
+}
+.cardcontainer{
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding:1%;
+  background-color: rgb(48, 48, 48);
+  float: right;
+  border-radius: 10px;
+  border-width: 0;
+  margin:1%;
+}
+
+.btn:hover {
+  background-color: #2e2c2c;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(97, 97, 97) 1px 1px 5px 1px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5%;
+  background-color: #666666;
+}
+
+
